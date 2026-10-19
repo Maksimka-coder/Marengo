@@ -1,0 +1,373 @@
+:root {
+    --main-color: #195360;
+    --blue: #60A2B8;
+    --black: #121212;
+    --gray: #404040;
+    --white: #F5F5F5;
+    --red: #7B3838;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+
+    height: 90px;
+    width: 100%;
+
+    background-color: var(--white);
+}
+
+.logo {
+    display: flex;
+    color: var(--blue);
+}
+
+header h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+header nav {
+    display: flex;
+    gap: 70px;
+}
+
+header nav a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--blue);
+    text-decoration: none;
+}
+
+header button {
+    background: none;
+    border: none;
+}
+
+.social {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+
+    height: 810px;
+    width: 100%;
+
+    background: linear-gradient(180deg, #F5F5F5 0%, #60A2B8 100%);
+}
+
+.sec1 h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    vertical-align: middle;
+    color: var(--black);
+    width: 720px;
+}
+
+.sec1 p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--gray);
+    width: 540px;
+    margin-top: 40px;
+}
+
+.sec1 button {
+    width: 258px;
+    height: 57px;
+    border: none;
+    background-color: var(--main-color);
+    color: var(--white);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.images {
+    width: 600px;
+}
+
+.sec2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    height: 600px;
+    width: 100%;
+
+    background-color: white;
+}
+
+.sec2 p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    color: var(--gray);
+    text-align: center;
+}
+
+.sec3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+
+    height: 600px;
+    width: 100%;
+
+    background-color: white;
+}
+
+.sec3 h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+    color: var(--red);
+    width: 456px;
+}
+
+.sec3 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    vertical-align: middle;
+    color: var(--gray);
+    width: 460px;
+}
+
+.sec3 button {
+    width: 228px;
+    height: 57px;
+    border: none;
+    background-color: var(--main-color);
+    color: var(--white);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 160%;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.sec4 {
+    background-color: var(--main-color);
+    width: 100%;
+    height: 900px;
+}
+
+.sec4 h1 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 160%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 115px;
+    color: var(--white);
+}
+
+.tatodiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.div1 {
+    width: 460px;
+    height: 485px;
+    background-image: url(images/Rectangle\ 13.svg);
+}
+
+.div2 {
+    width: 460px;
+    height: 485px;
+    background-image: url(images/Rectangle\ 14.svg);
+}
+
+.div3 {
+    width: 460px;
+    height: 485px;
+    background-image: url(images/Rectangle\ 15.svg);
+}
+
+.sec4 h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 160%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: var(--white);
+    text-align: center;
+    padding-top: 334px;
+}
+
+.rest {
+    position: relative;
+    bottom: 500px;
+    left: 900px;
+}
+
+.Osnova p{
+    padding-left: 100px;
+}
+
+.Tatoimgdiv {
+    position: relative;
+    left: 90px;
+    top: 123px;
+}
+
+.Tatoimgdiv h1 {
+    font-size: 54px;
+}
+
+.Tatoimgdiv-p {
+    font-size: 18px;
+    width: 700px;
+}
+
+.Tatoimgdiv img {
+    position: relative;
+    top: 90px;
+}
+
+.Tatoimgdiv h2 {
+    padding-left: 100px;
+}
+
+.sec6{
+    background-color: #195360;
+}
+
+.Tatodiv-sec6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+}
+
+.Div1-sec6 h1{
+   position: relative;
+   bottom: 40px;
+   left: 50px;
+}
+
+.Div1-sec6 h3{
+    position: relative;
+    bottom: 40px;
+    left: 35px;
+}
+
+.sec6 h1{
+   padding-left: 70px;
+}
+
+.sec6 h3{
+    padding-left: 40px;
+}
+
+.sec6{
+    position: relative;
+    bottom: 250px;
+}
+
+.sec7 h1{
+ position: relative;
+ bottom: 830px;
+ left: 1000px;
+ font-size: 54px;
+}
+
+.sec7 p{
+    font-size: 18px;
+    width: 748px;
+    position: relative;
+    bottom: 830px;
+    left: 890px;
+}
+
+.Tatodiv-sec7{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.Tatodiv-sec7 h3{
+    padding-left: 43px;
+    color: #7B3838;
+}
+
+.Tatodiv2-sec7{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.Tatodiv2-sec7 h3{
+    padding-left: 43px;
+    color: #7B3838;
+}
+
+.tatodiv1{
+    position: relative;
+    bottom: 760px;
+    left: 360px;
+}
+
+footer{
+    position: relative;
+    bottom: 450px;
+}
+
+footer h1{
+    padding-left: 750px;
+}
+
+.tatodiv2{
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+}
+
+footer hr{
+    width: 100px;
+}
+
+footer img{
+    padding-left: 20px;
+}
+
+footer h2{
+    padding-left: 30px;
+}
+
+.p1{
+    padding-left: 20px;
+}
+
+.h2-1{
+    padding-left: 20px;
+}
+
